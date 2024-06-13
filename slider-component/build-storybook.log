@@ -1,0 +1,41 @@
+
+> slider-component@0.1.0 build-storybook
+> storybook build --output-dir /var/folders/5d/nddyj37n52340jjcqkhgq98r0000gq/T/chromatic--10794-Tphwiqpyu9p5
+
+@storybook/cli v8.1.7
+
+info => Cleaning outputDir: ../../../../../../var/folders/5d/nddyj37n52340jjcqkhgq98r0000gq/T/chromatic--10794-Tphwiqpyu9p5
+info => Loading presets
+info => Building manager..
+info => Manager built (132 ms)
+info => Building preview..
+info => Loading Webpack configuration from `node_modules/react-scripts`
+info => Removing existing JavaScript and TypeScript rules.
+info => Modifying Create React App rules.
+info Addon-docs: using MDX3
+info => Using default Webpack5 setup
+WARN No story files found for the specified pattern: src/**/*.mdx
+info => Copying static files: public at ../../../../../../var/folders/5d/nddyj37n52340jjcqkhgq98r0000gq/T/chromatic--10794-Tphwiqpyu9p5
+WARN [eslint] 
+WARN src/component/doubleSlider/index.jsx
+WARN   Line 16:6:  React Hook useEffect has missing dependencies: 'max' and 'updateSliderBackground'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+WARN 
+WARN src/component/sliderDiscrete/index.jsx
+WARN   Line 12:6:  React Hook useEffect has a missing dependency: 'updateSliderBackground'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+WARN 
+WARN 
+WARN asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).
+WARN This can impact web performance.
+WARN Assets: 
+WARN   215.2c8430e7.iframe.bundle.js (938 KiB)
+WARN   746.ce503137.iframe.bundle.js (675 KiB)
+WARN   7.b84bec9d.iframe.bundle.js (759 KiB)
+WARN entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.
+WARN Entrypoints:
+WARN   main (952 KiB)
+WARN       runtime~main.e4b8fc5e.iframe.bundle.js
+WARN       215.2c8430e7.iframe.bundle.js
+WARN       main.5780aa26.iframe.bundle.js
+WARN 
+info => Preview built (9.1 s)
+info => Output directory: /var/folders/5d/nddyj37n52340jjcqkhgq98r0000gq/T/chromatic--10794-Tphwiqpyu9p5
